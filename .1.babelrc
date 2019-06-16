@@ -1,0 +1,14 @@
+
+{
+  "presets": [
+    "env",
+     "stage-0",
+     "es2015",
+     "react"
+  ]
+}
+
+ // presets：babel相应的依赖包，所以配置了什么就安装什么包
+ // 依次安装： 
+ // npm install babel-preset-stage-0 --save-dev
+ // npm install babel-preset-es2015 --save-dev...

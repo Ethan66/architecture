@@ -1,0 +1,34 @@
+{
+    "name": "architecture",
+    "version": "1.0.0",
+    "description": "a boilerplate for architecture",
+    "main": "index.js",
+    "scripts": {
+      "babel": "babel src/app -d dist",
+      "webpack": "webpack --config webpack/base.config.js",
+      "dev": " echo \"hello dev\"",
+      "prod": " echo \"hello prod\""
+    },
+    "keywords": [
+      "architecture"
+    ],
+    "author": "Ethan",
+    "license": "ISC",
+    "devDependencies": {
+      "babel-core": "^6.26.3",
+      "babel-loader": "^7.1.5",
+      "babel-preset-env": "^1.7.0",
+      "babel-preset-es2015": "^6.24.1",
+      "babel-preset-react": "^6.24.1",
+      "babel-preset-stage-0": "^6.24.1",
+      "css-loader": "^2.1.1",
+      "extract-text-webpack-plugin": "^4.0.0-beta.0",
+      "file-loader": "^4.0.0",
+      "less-loader": "^5.0.0",
+      "style-loader": "^0.23.1",
+      "webpack": "^4.33.0",
+      "webpack-cli": "^3.3.2"
+    },
+    "dependencies": {}
+  }
+  
